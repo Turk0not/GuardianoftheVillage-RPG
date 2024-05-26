@@ -363,8 +363,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Environments/Trees/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_CustomWind.cs"
 "Assets/Environments/Trees/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_Utils.cs"
+"Assets/Scripts/Combat/CombatTarget.cs"
+"Assets/Scripts/Combat/Fighter.cs"
 "Assets/Scripts/Controller/PlayerController.cs"
+"Assets/Scripts/Core/ActionSchedular.cs"
 "Assets/Scripts/Core/FollowCamera.cs"
+"Assets/Scripts/Core/IAction.cs"
 "Assets/Scripts/Movement/Mover.cs"
 -langversion:9.0
 
