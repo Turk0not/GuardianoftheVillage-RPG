@@ -12,6 +12,10 @@ GameObject:
   - component: {fileID: 8477943722373163976}
   - component: {fileID: 983520803636826338}
   - component: {fileID: 8710711311254490962}
+  - component: {fileID: 182904623618938621}
+  - component: {fileID: 3221952873207733830}
+  - component: {fileID: 2869542946220702217}
+  - component: {fileID: 7279231384008492675}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -110,4 +114,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aa870296efafb049aeb3b5c56dc8d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+--- !u!95 &182904623618938621
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3079792737618032075}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: baba0637d9cce474ea0c1c923dad8211, type: 3}
+  m_Controller: {fileID: 9100000, guid: 714a373a822ee964aa46956098bc1acd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3221952873207733830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3079792737618032075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad11f9b1ff16d747af834e279591581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2869542946220702217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3079792737618032075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22715648e14f9b4eaa6fa782e4c3db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetweenAttacks: 1
+  weaponRange: 2
+--- !u!114 &7279231384008492675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3079792737618032075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7173a7480827494fb430a6aa3fdfc88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
